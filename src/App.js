@@ -1380,11 +1380,11 @@ function App() {
                       <img
                         alt=""
                         src="https://eep.io/mc-gallery/f541cc7ca6febb0c5b4340ddc/images/2222005b-bc55-412e-9ae2-8c56393b4892.jpg"
-                        width="500"
                         class="mcnImage"
                         css={css`
                           align-self: center;
                           max-width: 100%;
+                          width: 400px;
                           box-shadow: none;
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -1411,8 +1411,10 @@ function App() {
                   <div
                     class="mcnTextContent"
                     css={css`
-                      flex-display: row;
+                      display: flex;
+                      flex-direction: row;
                       flex: 1 1 100%;
+                      align-items: center
                       padding: 0 9px 0 9px;
                       -webkit-box-sizing: border-box;
                       -moz-box-sizing: border-box;
@@ -1631,6 +1633,7 @@ function App() {
                         css={css`
                           align-self: center;
                           max-width: 100%;
+                          width: 400px;
                           box-shadow: none;
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -1891,6 +1894,7 @@ function App() {
                         css={css`
                           align-self: center;
                           max-width: 100%;
+                          width: 400px;
                           box-shadow: none;
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -2138,6 +2142,7 @@ function App() {
                         css={css`
                           align-self: center;
                           max-width: 100%;
+                          width: 400px;
                           box-shadow: none;
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -2385,6 +2390,7 @@ function App() {
                           css={css`
                           align-self: center;
                           max-width: 100%;
+                          width: 400px;
                           box-shadow: none;
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
