@@ -1,9 +1,8 @@
 import React from 'react';
-import flourCrowns from './flourCrowns.jpg';
 import Michaela from './michaela.jpeg';
 
 /** @jsx jsx */
-import { jsx, css, Global, ClassNames } from '@emotion/core';
+import { jsx, css } from '@emotion/core';
 
 function App() {
   return (
@@ -1370,7 +1369,7 @@ function App() {
                       href="http://dailydishonesty.com"
                       title=""
                       class=""
-                      target="_blank"
+                      rel="external"
                       css={css`
                         -webkit-box-sizing: border-box;
                         -moz-box-sizing: border-box;
@@ -1493,7 +1492,7 @@ function App() {
                       ></br>
                       <a
                         href="http://dailydishonesty.com"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -1618,7 +1617,7 @@ function App() {
                       href="http://exboyfriendtears.bigcartel.com/"
                       title=""
                       class=""
-                      target="_blank"
+                      rel="external"
                       css={css`
                         -webkit-box-sizing: border-box;
                         -moz-box-sizing: border-box;
@@ -1740,7 +1739,7 @@ function App() {
                       ></br>
                       <a
                         href="http://exboyfriendtears.bigcartel.com"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -1800,7 +1799,7 @@ function App() {
                       and Urban Outfitters even &nbsp;
                       <a
                         href="https://www.pinterest.com/pin/416934877978701641/"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -1879,7 +1878,7 @@ function App() {
                       href="https://willletterforlunch.com/"
                       title=""
                       class=""
-                      target="_blank"
+                      rel="external"
                       css={css`
                         -webkit-box-sizing: border-box;
                         -moz-box-sizing: border-box;
@@ -2001,7 +2000,7 @@ function App() {
                       ></br>
                       <a
                         href="https://willletterforlunch.com/"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -2127,7 +2126,7 @@ function App() {
                       href="http://willletterforlunch.com"
                       title=""
                       class=""
-                      target="_blank"
+                      rel="external"
                       css={css`
                         -webkit-box-sizing: border-box;
                         -moz-box-sizing: border-box;
@@ -2249,7 +2248,7 @@ function App() {
                       ></br>
                       <a
                         href="http://willletterforlunch.com"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -2375,7 +2374,7 @@ function App() {
                         href="http://willletterforlunch.com"
                         title=""
                         class=""
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -2497,7 +2496,7 @@ function App() {
                         ></br>
                         <a
                           href="http://willletterforlunch.com"
-                          target="_blank"
+                          rel="external"
                           css={css`
                             -webkit-box-sizing: border-box;
                             -moz-box-sizing: border-box;
@@ -2914,7 +2913,7 @@ function App() {
                     >
                       <a
                         href="http://www.facebook.com/heyhomsweethom"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -2965,7 +2964,7 @@ function App() {
                     >
                       <a
                         href="http://www.twitter.com/homtweethom"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
@@ -3016,7 +3015,7 @@ function App() {
                     >
                       <a
                         href="http://instagram.com/homsweethom"
-                        target="_blank"
+                        rel="external"
                         css={css`
                           -webkit-box-sizing: border-box;
                           -moz-box-sizing: border-box;
